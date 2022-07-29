@@ -135,6 +135,7 @@ document.querySelector("#submit").addEventListener("click", function (event) {
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(data),
   });
+  alert("전송되었습니다.");
 });
 
 // ===============================================================
@@ -171,4 +172,5 @@ document
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data_cancel),
     });
+    alert("전송되었습니다.");
   });
